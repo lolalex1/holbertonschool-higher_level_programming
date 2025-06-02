@@ -10,6 +10,18 @@
 >>> print(my_list)
 [3, 1, 2]
 
+>>> # check negative‐number behavior
+>>> neg_list = MyList()
+>>> neg_list.append(3)
+>>> neg_list.append(-1)
+>>> neg_list.append(2)
+>>> print(neg_list)
+[3, -1, 2]
+>>> neg_list.print_sorted()
+[-1, 2, 3]
+>>> print(neg_list)
+[3, -1, 2]
+
 >>> empty = MyList()
 >>> print(empty)
 []
